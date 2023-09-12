@@ -1,6 +1,6 @@
 <h1 align="center"> INTERNET </h1>
 
-<img src="https://www.researchgate.net/profile/Romain-Fontugne/publication/328896248/figure/fig1/AS:695826921824258@1542909474290/State-of-TeleGeographys-Submarine-Cable-Map-July-2018-Source-44.ppm">
+<img src="https://wisp.com.mx/wp-content/uploads/2021/11/Internet.jpg">
 
 Internet es una red de redes de dispositivos infomáticos interconectados que crean un medio para compartir información en tiempo real. Para que la comunicación entre estos dispositivos sea posible, es necesario que todos "hablen" el mismo idioma, esdecir, que tengan el mismo sistema que determine la forma en que se comuniquen. Con este propósito es que se desarrollan los protocolos de comunicación.
 
