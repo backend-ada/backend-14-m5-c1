@@ -2,11 +2,11 @@
 
 <img src="https://wisp.com.mx/wp-content/uploads/2021/11/Internet.jpg">
 
-Internet es una red de redes de dispositivos infomáticos interconectados que crean un medio para compartir información en tiempo real. Para que la comunicación entre estos dispositivos sea posible, es necesario que todos "hablen" el mismo idioma, esdecir, que tengan el mismo sistema que determine la forma en que se comuniquen. Con este propósito es que se desarrollan los protocolos de comunicación.
+Internet es una red de redes de dispositivos infomáticos interconectados que crean un medio para compartir información en tiempo real. Para que la comunicación entre estos dispositivos sea posible, es necesario que todos "hablen" el mismo idioma, es decir, que tengan el mismo sistema que determine la forma en que se comunican. Con este propósito es que se desarrollan los protocolos de comunicación.
 
 <h2 align="center"> Familia de protocolos </h2>
 
-Para que Internet y todo su entramado de comunicaciones sea posible, se desarrollaron una familia de protocolos que constituyen su arquitectura básica fundamental:
+Para que Internet y todo su entramado de comunicaciones sea posible, se desarrollaron varios protocolos que constituyen su arquitectura básica fundamental:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Suite_de_Protocolos_TCPIP.png">
 
@@ -18,11 +18,11 @@ Para que Internet y todo su entramado de comunicaciones sea posible, se desarrol
 
 - La capa más superficial es la de aplicación, cuya función es la de dar la posibilidad a las aplicaciones de acceder a los servicios que las otras capas ofrecen, y define los protocolos que utilizan las apps para intercambiar datos, como FTP o HTTP.
 
-<img src="https://www.ibm.com/docs/es/ssw_aix_71/network/figures/comma28.jpg">
+<p align="center"> <img src="https://www.ibm.com/docs/es/ssw_aix_71/network/figures/comma28.jpg"> </p>
 
 <h2 align="center"> Application Layer o Capa de Aplicación </h2>
 
-Importante aclarar que el usuario rara vez interactúa directamente con la capa de aplicación, sino que lo hace con una aplicación que se encarga de interactuar con ella. Por ejemplo, un usuario no hace él mismo una petición del tipo **GET** a *"https://www.api.com/index.html"* e interpreta directamente el JSON crudo. En su lugar, el interactúa con una GUI desarrollada por programadores que a su vez interactúa con algún software backend, y este último es el encargado de solicitar información al servidor. 
+Importante aclarar que el usuario rara vez interactúa directamente con la capa de aplicación, sino que lo hace con una aplicación que se encarga de interactuar con ella. Por ejemplo, un usuario no hace él mismo una petición del tipo **GET** a *"https://www.api.com/index.html"* e interpreta directamente el JSON crudo. En su lugar, interactúa con una interfaz gráfica desarrollada por programadores, encargada de solicitar información al servidor. 
 
 <h2 align="center"> Protocolo HTTP </h2>
 
@@ -42,10 +42,10 @@ La computadora o dispositivo que necesita cierta información, es la que cumplir
 
 Todas las acciones que podemos ejecutar en un servidor están ya predeterminadas y se denominan **VERBOS HTTP** o **MÉTODOS**. Las acciones principales más utilizadas por los servidores son la lectura de información, creación de nuevo contenido, actualización y eliminación (C.R.U.D.: Create, Read, Update y Delete). Veamos los métodos HTTP más usados que nos permiten realizarlas: 
 
-- POST (Create): Crea nuevo contenido.
-- GET (Read): Obtiene contenido.
-- PATCH | PUT (Update): Actualiza contenido.
-- DELETE (Delete): Elimina contenido.
+- **C >** POST: Crea nuevo contenido.
+- **R >** GET: Obtiene contenido.
+- **U >** PATCH | PUT: Actualiza contenido.
+- **D >** DELETE: Elimina contenido.
 
 Una vez hecha la solicitud, el servidor nos responde con un código que sirve para identificar el estado de la respuesta. Los códigos de estado de las respuestas HTTP indican si una solicitud HTTP especifica fue completeda con satisfacción o no. Las distintas posibilidades están referenciadas según unos códigos de estado:
 
