@@ -1,0 +1,41 @@
+{
+	"description": {
+		"message": "Welcome to ADA's API!",
+		"running": true,
+		"urls": ["/students", "/teachers"]
+	},
+	"students": [
+		{
+			"id": "c04277b7-170f-4db4-bb5a-aa025aac4848",
+			"name": "Sordini Carolina",
+			"age": 29
+		},
+		{
+			"id": "c04277b7-170f-4db4-bb5a-aa025bbc4848",
+			"name": "Ayala Yanina",
+			"age": 27
+		},
+		{
+			"id": "c04277b7-170f-4db4-bb5a-aa025xxx4848",
+			"name": "Cejade Florencia",
+			"age": 32
+		},
+		{
+			"id": "c5c2ef58-80e0-4db3-b193-4db919a99957",
+			"name": "Matias",
+			"age": 36
+		}
+	],
+	"teachers": [
+		{
+			"id": "c04298b7-170f-4db4-bb5a-bb025aac4848",
+			"name": "Arno Matías",
+			"age": 26
+		},
+		{
+			"id": "c04277b7-170f-4cb4-cc5a-aa02caac4848",
+			"name": "Sorni Aldana",
+			"age": 29
+		}
+	]
+}
